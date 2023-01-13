@@ -26,7 +26,7 @@ server.listen(port,() => {
 });
 
 app.get('/', (req = request,res = response) => {
-  res.send('Ruta raiz');
+  res.send('Ruta raiz actualizada');
 });
 
 

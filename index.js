@@ -21,7 +21,7 @@ app.set('port',port);
 
 usersRoutes(app)
 
-server.listen(port, '192.168.18.23' || 'localhost',() => {
+server.listen(port,() => {
   console.log("run on port:"+ port);
 });
 

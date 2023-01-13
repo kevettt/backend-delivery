@@ -29,9 +29,6 @@ app.get('/', (req = request,res = response) => {
   res.send('Ruta raiz actualizada');
 });
 
-
-
-
 app.use((req=request,res = response,next,err) => {
   console.log(err);
   res.status(err.status || 500).send(err.status);
